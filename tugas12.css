@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(to right, #33ccff, #b3ecff);
+}
+header {
+  background-color: black;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  column-width: 60px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+
+.slider-img {
+  border-top-left-radius: 5px;
+  width: 100%;
+  height: 50%;
+}
+
+.image {
+  height: 220px;
+  width: 220px;
+  float: left;
+  margin: 10px;
+  padding-top: 10px;
+}
+p {
+  margin : 10px;
+  column-count: 4;
+  column-fill: auto;
+  column-rule: 2px solid black;
+  text-align: justify;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
